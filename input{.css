@@ -1,0 +1,84 @@
+body{
+    background-color: #a9bd7e;
+}
+table{
+    margin: auto;
+    background-color: #9dd2ea;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #0d3ce9;
+    background-color: 4px;
+    border-radius: 4px;
+    width: 70px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+    font-size: 30px;
+    box-shadow: 0 4px rgba(236, 18, 18, 0.2);
+}
+
+.operator{
+    background-color: #0bf86e;
+    font-size: 50px;
+    position: relative;
+}
+
+
+#clear{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #0cf7eb;
+    margin-bottom: 20px;
+}
+#answer{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #f1faeb;
+    float: left;
+}
+/* answer hover effect */
+#answer:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    background-color: #f1faeb;
+}
+input:hover{
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #6bb30d;
+    border-radius: 4px;
+    width: 70px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+    font-size: 30px;
+    box-shadow: 0 4px #644294;
+}
+/* hover */
+.operator:hover{
+    background-color: #145ce4;
+    box-shadow: 0 4px #b7c259;
+}
+/* hover */
+#clear:hover{
+    float: left;
+    display: block;
+    background-color: #f297a0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px #cc7f86;
+    position: relative;
+}
